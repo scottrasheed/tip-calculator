@@ -1,7 +1,7 @@
 # Tip Calculator
 
 This is a simple web-based tip calculator built with HTML and JavaScript.
-
+**Live Demo:** [Click here to try it out](https://scottrasheed.github.io/tip-calculator/)
 ## How it works:
 - Enter the total bill amount.
 - Enter the tip percentage you want to leave.
@@ -13,4 +13,3 @@ This is one of my first beginner projects as I learn web development. I'm practi
 - Basic JavaScript functions
 - Simple math operations
 - DOM manipulation (changing the page with JS)
-**Live Demo:** [Click here to try it out](https://scottrasheed.github.io/tip-calculator/)

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <h2>Tip Calculator</h2>
+
+    <label>Bill Total: $</label>
+    <input id="bill" type="number" /><br /><br />
+
+    <label>Tip %: </label>
+    <input id="tip" type="number" /><br /><br />
+
+    <button onclick="calculateTip()">Calculate</button>
+
+    <p id="result"></p>
+
+    <script>
+      function calculateTip() {
+        const bill = parseFloat(document.getElementById('bill').value);
+        const tipPercent = parseFloat(document.getElementById('tip').value);
+
+        const tip = bill * (tipPercent / 100);
+        const total = bill + tip;
+
+        document.getElementById('result').innerText =
+          'Tip: $' + tip.toFixed(2) + ' | Total: $' + total.toFixed(2);
+      }
+    </script>
+  </body>
+</html>

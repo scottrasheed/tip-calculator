@@ -13,3 +13,4 @@ This is one of my first beginner projects as I learn web development. I'm practi
 - Basic JavaScript functions
 - Simple math operations
 - DOM manipulation (changing the page with JS)
+**Live Demo:** [Click here to try it out](https://scottrasheed.github.io/tip-calculator/)
